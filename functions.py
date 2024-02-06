@@ -3,5 +3,5 @@ def func1():
 
 def func2():
     x=func1()
-    print (x, "world")
+    print (x, "worlds")
 func2()
