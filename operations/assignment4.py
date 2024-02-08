@@ -20,5 +20,5 @@ print(k)
 
 countries= {"uganda": "kamapala", "kenya":"Nairobi"}
 
-del countries["uganda"]
-print(countries)
+del countries():
+    print(countries)
