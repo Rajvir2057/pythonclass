@@ -27,3 +27,9 @@ def func1():
 def func2():
     print (func1())
 func2()
+
+def function():
+    pass 
+
+def function2():
+    print("not empty")

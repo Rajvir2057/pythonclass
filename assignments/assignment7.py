@@ -1,13 +1,13 @@
 # PROGRAM FOR DAYS IN A WEEK...
-
 import datetime
 
 def current_day():
+  
 
-    current_day= date.time.date.time.now()
+    current_day= datetime.datetime.now()
 
     if current_day.strftime("%a") == "Mon":
-        print ("Monday: is the first day of the week. ")
+        print ("Monday: is the first day of the week.")
     
     elif current_day.strftime("%a") == "Tue":
         print (" Tuesday: is the second day of the week.")
@@ -29,5 +29,4 @@ def current_day():
     
     else:
         print("Day not found.")
-
 current_day()
