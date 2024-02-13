@@ -1,12 +1,12 @@
 #object oriented programming..
 class Car:
 
-    def (_ _init_ _ (self, make,model,year,color)):
+    def _ _init_ _ (self, make,model,year,color):
         self.make = make
         self.model = model
         self.year = year
         self.color =color
-
+        
     def drive(self):
         print("this car is driving..")
 
