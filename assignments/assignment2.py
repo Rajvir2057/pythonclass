@@ -3,6 +3,7 @@
 # assigned as a module 
 
 #declare 
-PI = 3.14
-GRAVITY = 9.8
+constantPI = 3.14
+constantGRAVITY = 9.8
 
+print(constantPI)

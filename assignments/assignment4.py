@@ -1,13 +1,12 @@
 # How do we use comprehension in python
 
-#Planents[ "Mars", "Earth", "Jupiter", "pluto", "saturn"]
-#newlist= []
+planets = [ "Mars", "Earth", "Jupiter", "pluto", "saturn"]
+newlist= [planet for planet in planets if "a" in planet]
 
 #for x in planets:
 #if "a" in x:
 #newlist.append (x) 
-
-#print (newlist)
+print (newlist)
 
 #how to remove an element using pop 
 
@@ -19,6 +18,5 @@ print(k)
 #deleting in a dictionary 
 
 countries= {"uganda": "kamapala", "kenya":"Nairobi"}
-
-del countries():
-    print(countries)
+countries.pop("kenya")
+print(countries)
