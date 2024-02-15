@@ -15,4 +15,7 @@ print (x) #same here
 
 #deleting from a list..
 x = ["apple", "banana"]
+del x[0]
+
+print (x)
 
